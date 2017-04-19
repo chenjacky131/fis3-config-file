@@ -1,1 +1,1 @@
-# fis3-config-file
+# fis3前端项目常用的配置文件
