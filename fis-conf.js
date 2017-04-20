@@ -1,5 +1,5 @@
 // 合并引入的css，js
-/*fis.match('::packager', {
+fis.match('::packager', {
   postpackager: fis.plugin('loader',{// 合并页面里的零碎资源换成一个文件
   	allInOne:{
       js: function (file) {
@@ -12,11 +12,11 @@
       }  		
   	}
   })
-});*/
+});
 // 修改静态资源目录
-/*fis.match('*.{png,js,css,jpg}', {
+fis.match('*.{png,js,css,jpg}', {
   release: '/static/$0'
-});*/
+});
 // less的编译
 fis.match('*.less',{
 	parser:fis.plugin('less'),
