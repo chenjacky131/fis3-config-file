@@ -48,4 +48,6 @@ fis.match('*.png', {
   	 type : 'pngquant'
   })
 });
-
+// 让所有文件，都使用相对路径（需要安装hook插件：fis3-hook-releative）。 
+fis.hook('relative'); 
+fis.match('**', { relative: true })
